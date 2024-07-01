@@ -15,11 +15,11 @@ header {
   text-align: center;
   text-decoration: underline;
 }
-[data-testid="Introduction"] {
+[data-test-id="Introduction"] {
   width: 80%;
   margin: 0 auto;
 }
-[data-testid="slackProfilePicture"] {
+[data-test-id="slackProfilePicture"] {
   float: right;
   margin-left: 16px;
   margin-bottom: 15px;
