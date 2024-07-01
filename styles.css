@@ -10,6 +10,17 @@ body {
   /* min-height: 100vh;
   text-align: center; */
 }
+.containerTwo{
+  width: 80%;
+  margin: 0 auto;
+}
+.containerOne{
+  width: 80%;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: row; */
+
+}
 #datetime{
   color:#FD3D86;
   
@@ -18,17 +29,17 @@ body {
 header {
   text-align: center;
   text-decoration: underline;
+
 }
 [data-test-id="Introduction"] {
   width: 80%;
   margin: 0 auto;
 }
 [data-test-id="slackProfilePicture"] {
-  float: right;
-  margin-left: 16px;
-  margin-bottom: 15px;
-  /* border-radius: 40px; */
-  /* width: 300px; */
+  /* float: right;
+    margin-left: 16px;
+  margin-bottom: 15px;   */
+
 }
 img{
   border-bottom: 10px solid #F589B2;
@@ -41,6 +52,7 @@ article {
   flex-direction: column;
   font-size: 20px;
   color:#190A10 ;
+  
 }
 
 li a{
@@ -49,7 +61,7 @@ li a{
   
 }
 .wrapper:hover{
-  background-color: rgba(255, 255, 255, 0.111);
+  background-color: #dd36760d;
   transition: all 0.3s ease-in-out;
   border-radius: 20px;
 }
@@ -82,7 +94,7 @@ h3 .emailone{
 
 
 }
-@media (max-width: 991px){
+@media (max-width: 480px){
   .Introduction .wrapper{
     flex: 0 0 100%;
     max-width: 100%;

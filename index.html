@@ -10,67 +10,76 @@
     </style>
   </head>
   <body>
-    <header>
+    <header data-test-id="header">
       <h3>My Hub</h3>
     </header>
-    <section data-test-id="introduction" class="Introduction">
-      <img data-test-id="slackProfilePicture" src="profile picture.jpg" />
+    <div data-test-id="containerOne" class="containerOne">
+      <section data-test-id="introduction" class="Introduction">
+        <h2 data-test-id="slackDisplayName">
+          Hello, my name is <span class="name"> Grace Codes</span>
+        </h2>
 
-      <h2 data-test-id="slackDisplayName">
-        Hello, my name is <span class="name"> Grace Codes</span>
-      </h2>
+        <h3 data-test-id="myProfession" class="my-profession">
+          I'm a <span class="typing">Junior Developer</span>
+        </h3>
+        <img data-test-id="slackProfilePicture" src="profile picture.jpg" />
+      </section>
+    </div>
+    <div data-test-id="containerTwo" class="containerTwo">
+      <article data-test-id="wrapper" class="wrapper">
+        <p data-test-id="goalOne">
+          As a junior developer, focusing on building a strong foundation in
+          core programming languages, version control, and problem-solving is
+          crucial. Becoming proficient in languages relevant to my work,
+          mastering Git and GitHub for collaboration, and understanding
+          algorithms and data structures are essential steps. Regularly engaging
+          in coding challenges and developing real-world projects will not only
+          enhance my skills but also build a robust portfolio. Contributing to
+          open-source projects and gaining experience with both front-end (HTML,
+          CSS, JavaScript, and frameworks like React) and back-end development
+          (server-side languages and frameworks) will broaden my technical
+          expertise. Additionally, learning to work with databases (both SQL and
+          NoSQL) and staying updated with industry trends through continuous
+          learning and attending tech conferences or meetups will keep me
+          current and competitive.
+        </p>
 
-      <h3 data-test-id="my-profession"  class="my-profession">
-        I'm a <span class="typing">Junior Developer</span>
+        <p data-test-id="goalTwo">
+          Equally important is the development of my soft skills and career
+          planning. Improving my communication skills, collaborating effectively
+          within a team, and understanding agile methodologies are key aspects
+          of my professional growth. Seeking mentorship from experienced
+          developers, actively seeking and applying feedback, and achieving
+          relevant certifications can further validate my skills and knowledge.
+          Building a professional network through platforms like LinkedIn and
+          participating in local meetups can open doors to new opportunities.
+          Setting career milestones, such as aiming for a mid-level developer
+          position within two years, will help guide my progress and keep me
+          focused on my long-term career objectives.
+        </p>
+      </article>
+
+      <h3 data-test-id="slackEmail" class="email">
+        Email:
+        <a href="mailto:gracemcodes@gmail.com" class="emailone"
+          >gracemcodes@gmail.com</a
+        >
       </h3>
+      <h5>For more info on HNG:</h5>
+      <ul>
+        <li data-test-id="hgnLink">
+          <a href="https://hng.tech/learn">Hng Learn</a>
+        </li>
+        <li data-test-id="keywordLink">
+          <a href="https://keyword.dog/">KeyWord.dog</a>
+        </li>
+        <li data-test-id="scrapeanywebLink">
+          <a href="https://scrapeanyweb.site/">scrapeanyweb.site</a>
+        </li>
+      </ul>
 
-   </section>
-
-    <article data-test-id="wrapper" class="wrapper">
-      <p data-test-id="goalOne">
-        As a junior developer, focusing on building a strong foundation in core
-        programming languages, version control, and problem-solving is crucial.
-        Becoming proficient in languages relevant to my work, mastering Git and
-        GitHub for collaboration, and understanding algorithms and data
-        structures are essential steps. Regularly engaging in coding challenges
-        and developing real-world projects will not only enhance my skills but
-        also build a robust portfolio. Contributing to open-source projects and
-        gaining experience with both front-end (HTML, CSS, JavaScript, and
-        frameworks like React) and back-end development (server-side languages
-        and frameworks) will broaden my technical expertise. Additionally,
-        learning to work with databases (both SQL and NoSQL) and staying updated
-        with industry trends through continuous learning and attending tech
-        conferences or meetups will keep me current and competitive.
-      </p>
-
-      <p data-test-id="goalTwo">
-        Equally important is the development of my soft skills and career
-        planning. Improving my communication skills, collaborating effectively
-        within a team, and understanding agile methodologies are key aspects of
-        my professional growth. Seeking mentorship from experienced developers,
-        actively seeking and applying feedback, and achieving relevant
-        certifications can further validate my skills and knowledge. Building a
-        professional network through platforms like LinkedIn and participating
-        in local meetups can open doors to new opportunities. Setting career
-        milestones, such as aiming for a mid-level developer position within two
-        years, will help guide my progress and keep me focused on my long-term
-        career objectives.
-      </p>
-    </article>
-    
-    <h3 data-test-id="slackEmail" class="email">
-      Email: <a href="mailto:gracemcodes@gmail.com" class="emailone">gracemcodes@gmail.com</a>
-    </h3>
-    <h5>For more info on HNG:</h5>
-    <ul>
-      <li data-test-id="hgnLink"> <a href="https://hng.tech/learn">Hng Learn</a></li>
-      <li data-test-id="keywordLink"><a href="https://keyword.dog/">KeyWord.dog</a></li>
-      <li data-test-id="scrapeanywebLink"><a href="https://scrapeanyweb.site/">scrapeanyweb.site</a></li>
-    </ul>
-
-    <p data-test-id="currentTime&DateUTC" id="datetime"></p>
- 
-    
+      <p data-test-id="currentTime&DateUTC" id="datetime"></p>
+    </div>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
