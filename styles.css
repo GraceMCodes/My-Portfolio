@@ -1,14 +1,18 @@
 body {
   font-family: "Barlow", sans-serif;
-  background: #b8b9bd;
+  background: #FCF3F7  ;
   font-size: 18px;
-  color: aliceblue;
+  color: #190A10;
   display: flex;
   flex-direction: column;
   height: 100px;
  
   /* min-height: 100vh;
   text-align: center; */
+}
+#datetime{
+  color:#FD3D86;
+  
 }
 
 header {
@@ -23,20 +27,26 @@ header {
   float: right;
   margin-left: 16px;
   margin-bottom: 15px;
-  border-radius: 40px;
+  /* border-radius: 40px; */
   /* width: 300px; */
 }
 img{
-  border-bottom: 10px solid red;
-  border-right: 10px solid red ;
+  border-bottom: 10px solid #F589B2;
+  border-right: 10px solid #F589B2 ;
   
 }
 article {
-  color: aquamarine;
+  color: #190A10;
   display: block;
   flex-direction: column;
   font-size: 20px;
-  color:rgb(255, 255, 255) ;
+  color:#190A10 ;
+}
+
+li a{
+  color:#F589B2;
+  cursor: pointer;
+  
 }
 .wrapper:hover{
   background-color: rgba(255, 255, 255, 0.111);
@@ -44,12 +54,12 @@ article {
   border-radius: 20px;
 }
 .Introduction {
-  color: rgb(255, 255, 255);
+  color: #190A10;
   font-size: 20px;
   padding: 10px;
 }
 h2 .name{
-  color:rgba(255, 0, 0, 0.897);
+  color:#DD3675;
   font-size: 29px;
   font-weight: 700;
   font-family: cursive;
@@ -59,12 +69,18 @@ h3 .my-profession{
   margin: 15px 0;
 }
 h3 .typing{
-  color: rgba(255, 0, 0, 0.897);
+  color: #FD3D86;
 }
 h3 .email{
   font-size: 30px;
   margin: 15px 0;
  
+}
+h3 .emailone{
+ color: #DD3675;
+  font-family: cursive;
+
+
 }
 @media (max-width: 991px){
   .Introduction .wrapper{

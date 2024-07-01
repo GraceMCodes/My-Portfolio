@@ -17,16 +17,22 @@
       <img data-test-id="slackProfilePicture" src="profile picture.jpg" />
 
       <h2 data-test-id="slackDisplayName">
-        Hello, my name is <span class="name"> Grace Codes</span>.
+        Hello, my name is <span class="name"> Grace Codes</span>
       </h2>
 
       <h3 data-test-id="my-profession"  class="my-profession">
         I'm a <span class="typing">Junior Developer</span>
       </h3>
 
-      <h3 data-testid="slackEmail" class="email">
-        Email: <a href="mailto:gracemcodes@gmail.com">gracemcodes@gmail.com</a>
+      <h3 data-test-id="slackEmail" class="email">
+        Email: <a href="mailto:gracemcodes@gmail.com" class="emailone">gracemcodes@gmail.com</a>
       </h3>
+      <h5>For more info on HNG:</h5>
+      <ul>
+        <li data-test-id="hgnLink"> <a href="https://hng.tech/learn">Hng Learn</a></li>
+        <li data-test-id="keywordLink"><a href="https://keyword.dog/">KeyWord.dog</a></li>
+        <li data-test-id="scrapeanywebLink"><a href="https://scrapeanyweb.site/">scrapeanyweb.site</a></li>
+      </ul>
     </section>
 
     <article data-test-id="wrapper" class="wrapper">
@@ -60,7 +66,11 @@
         career objectives.
       </p>
     </article>
-<!-- DONT FORGET THE LINKS , DATE AND TIME -->
+
+    <p data-test-id="currentTime&DateUTC" id="datetime"></p>
+ 
+    
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
       integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
