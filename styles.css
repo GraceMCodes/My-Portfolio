@@ -55,9 +55,9 @@ article {
   padding: 10px;
   width: 80%;
   margin: 0 auto;
-   display: flex;
-  flex-direction: column; 
-}
+    /* display: flex;
+  flex-direction: column;  */
+} 
 li a{
   color:#F589B2;
   cursor: pointer;
