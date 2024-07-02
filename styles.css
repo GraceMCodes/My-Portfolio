@@ -14,12 +14,10 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.containerOne{
+
+.wrapperOne{
   width: 80%;
   margin: 0 auto;
-  /* display: flex;
-  flex-direction: row; */
-
 }
 #datetime{
   color:#FD3D86;
@@ -31,14 +29,15 @@ header {
   text-decoration: underline;
 
 }
-[data-test-id="Introduction"] {
+[data-test-id="introduction"] {
   width: 80%;
   margin: 0 auto;
+
 }
 [data-test-id="slackProfilePicture"] {
-  /* float: right;
+   float: right;
     margin-left: 16px;
-  margin-bottom: 15px;   */
+  margin-bottom: 15px;   
 
 }
 img{
@@ -65,11 +64,7 @@ li a{
   transition: all 0.3s ease-in-out;
   border-radius: 20px;
 }
-.Introduction {
-  color: #190A10;
-  font-size: 20px;
-  padding: 10px;
-}
+
 h2 .name{
   color:#DD3675;
   font-size: 29px;
@@ -88,15 +83,25 @@ h3 .email{
   margin: 15px 0;
  
 }
-h3 .emailone{
+h3 .emailOne{
  color: #DD3675;
   font-family: cursive;
-
-
 }
-@media (max-width: 480px){
-  .Introduction .wrapper{
-    flex: 0 0 100%;
-    max-width: 100%;
+
+.introduction{
+  width: 80%;
+  margin: 0 auto; 
+}
+
+@media (max-width: 1000px){
+  
+  .introduction {
+    color: #190A10;
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+     display: flex;
+    justify-content: space-between; 
   }
 }
