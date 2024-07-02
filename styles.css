@@ -7,18 +7,14 @@ body {
   flex-direction: column;
   height: 100px;
  
-  /* min-height: 100vh;
-  text-align: center; */
 }
 .containerTwo{
   width: 80%;
   margin: 0 auto;
 }
 
-.wrapperOne{
-  width: 80%;
-  margin: 0 auto;
-}
+
+
 #datetime{
   color:#FD3D86;
   
@@ -53,7 +49,15 @@ article {
   color:#190A10 ;
   
 }
-
+.introduction {
+  color: #190A10;
+  font-size: 20px;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+   display: flex;
+  flex-direction: column; 
+}
 li a{
   color:#F589B2;
   cursor: pointer;
@@ -88,20 +92,12 @@ h3 .emailOne{
   font-family: cursive;
 }
 
-.introduction{
-  width: 80%;
-  margin: 0 auto; 
-}
+
 
 @media (max-width: 1000px){
   
-  .introduction {
-    color: #190A10;
-    font-size: 20px;
-    padding: 10px;
-    width: 80%;
-    margin: 0 auto;
-     display: flex;
-    justify-content: space-between; 
-  }
+ .introduction{
+  width: 80%;
+  margin: 0 auto; 
+} 
 }
